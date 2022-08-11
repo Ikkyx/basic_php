@@ -41,7 +41,7 @@ include("header.php")
 
                 <div class="col-md-5">
                 <label for="exampleFormControlInput1" class="form-label">ชื่อ</label>
-                <input type="text" class="form-control" name="Name" id="Name" placeholder="กรุณาระบุชื่อ">
+                <input type="text" class="form-control" name="name" id="name" placeholder="กรุณาระบุชื่อ">
                 </div>
                
                 <div class="col-md-5    ">
@@ -53,8 +53,8 @@ include("header.php")
                 <div class="row"><!-- row2 -->
                 <div class="col-md-2">
                 <label for="exampleFormControlInput1" class="form-label">เพศ </label>
-                <input type="radio" class="form-check-input" name="sex" id="sex">ชาย
-                <input type="radio" class="form-check-input" name="sex" id="sex">หญิง
+                <input type="radio" class="form-check-input" name="gender" id="gender"value ="ชาย">ชาย
+                <input type="radio" class="form-check-input" name="gender" id="gender"value ="หญิง">หญิง
                 </div>
              
 
@@ -64,14 +64,14 @@ include("header.php")
                 </div>
                
                 <div class="col-md-7">
-                <label for="exampleFormControlInput1" class="form-label">นามสกุล</label>
-                <textarea class="form-control" name="txt_address" id="lastName" placeholder="กรุณาระบุที่อยู่"></textarea>
+                <label for="exampleFormControlInput1" class="form-label">ที่อยู่</label>
+                <textarea class="form-control" name="txt_address" id="txt_address" placeholder="กรุณาระบุที่อยู่"></textarea>
                 </div><!-- row2-->
                 <div class="row"><!-- row1 -->
 
                 <div class="col-md-6">
                 <label for="exampleFormControlInput1" class="form-label">เบอร์โทร </label>
-                <input type="text" class="form-control" name="Name" id="Name" placeholder="กรุณาระบุเบอร์โทร">
+                <input type="text" class="form-control" name="call" id="call" placeholder="กรุณาระบุเบอร์โทร">
                 </div>
 
 
@@ -80,7 +80,9 @@ include("header.php")
                 <input type="email" class="form-control" name="email" id="email" placeholder="กรุณาระบุอีเมล์">
                 </div>
             
-               
+               &nbsp;
+               &nbsp;
+               &nbsp;
                 <div class="row">
                 <div class="col -md-12 text-center">
                 <button class="btn btn-success" type="submit"><i class="bi bi-check-lg"></i>บันทึก</button>
